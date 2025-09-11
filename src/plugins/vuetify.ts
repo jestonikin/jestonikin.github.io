@@ -1,6 +1,7 @@
 // Styles
 import '@mdi/font/css/materialdesignicons.css'
 import 'vuetify/styles'
+import '@/styles/main.scss'
 
 // Vuetify
 import { createVuetify } from 'vuetify'
@@ -12,7 +13,7 @@ const brand = {
     background: "#333333",
     secondary: '#3b3b3b',
     accent: "#3498DB",
-  }
+  },
 }
 
 export default createVuetify({
@@ -24,6 +25,6 @@ export default createVuetify({
     defaultTheme: "brand",
     themes: {
       brand
-    }
+    },
   }
 })
